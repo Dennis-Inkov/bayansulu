@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069B622A497B8FBE151AEECD /* Color+RPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C949488754819710C422 /* Color+RPG.swift */; };
+		0A86B9D94C3BE664F7790F90 /* ActiveGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */; };
+		214046ABA09B877BBD7E1EC7 /* GamePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D742430F29950E6336C529 /* GamePhase.swift */; };
+		29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7958DEB077C02C7A5DE8377 /* Assets.xcassets */; };
+		32C7C4E5E5BE9AD1FD73BF6F /* View+FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */; };
+		3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A018A74C47B0F4931968D /* NotificationService.swift */; };
+		3CA7C038D8EEF7E481AE86A0 /* icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = EFB8F6A26BCECE7C99F9451A /* icon.svg */; };
+		403EC1D292486E4BC3D35E6A /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E19DC59447E8FBA7473D0 /* AlarmViewModel.swift */; };
+		4E7E90836812994333C8BB1F /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_9CD9A7A2-00E8-4762-BD06-9900708AA435" /* RPGAlarmApp.swift */; };
+		5735A06DBCAF6AC97A4E28FE /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09AD46809E09B994487124 /* AlarmListView.swift */; };
+		6D98FE96936F1B5F5C10E6E4 /* AlarmEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A11CD31A92D2AAC8A69A8 /* AlarmEditView.swift */; };
+		7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2F249DF25355B280DFB0 /* MemoryGameView.swift */; };
+		77A92A91D96559614F469A0A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49520648B52D93E7C5C23541 /* RootView.swift */; };
+		7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571EAE9723A94E816FA5D78 /* RPGCardView.swift */; };
+		82EF00FDDCA0B71669D75FD9 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */; };
+		93F3D12134ACFB8CC3D1E1E4 /* icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */; };
+		9A8692FDA56463F2AAB904F3 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316982DAAAE0CD76056953C /* AlarmModel.swift */; };
+		9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */; };
+		9CA53F04EE634FA64483805C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */; };
+		A58177FBA8D1C7D859866129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A62AC0EE6D0901C963022 /* AppDelegate.swift */; };
+		C7F53583C3351DCFB365C8E7 /* TimingGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D342F2C16C0E5B7232AF8 /* TimingGameView.swift */; };
+		CD6A1220B530B8791702293E /* MathGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E7F90585CCB0FAECA4FAF /* MathGameView.swift */; };
+		E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999072A7204373B8155DBA4 /* RPGButtonStyle.swift */; };
+		F68A93BA020667F20B522D00 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0187368ADEC90657DCE5ADA /* AudioService.swift */; };
+		FE5C216ABC01677427EF3CF1 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4FA2C15C212F200E4CAF91EB /* ConfettiSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		173A11CD31A92D2AAC8A69A8 /* AlarmEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditView.swift; sourceTree = "<group>"; };
+		2316982DAAAE0CD76056953C /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		2571EAE9723A94E816FA5D78 /* RPGCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGCardView.swift; sourceTree = "<group>"; };
+		2A920E0D89B33AB324723D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1024.png; sourceTree = "<group>"; };
+		3999072A7204373B8155DBA4 /* RPGButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGButtonStyle.swift; sourceTree = "<group>"; };
+		49520648B52D93E7C5C23541 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		4C38C949488754819710C422 /* Color+RPG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RPG.swift"; sourceTree = "<group>"; };
+		5B4A018A74C47B0F4931968D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameView.swift; sourceTree = "<group>"; };
+		6A09AD46809E09B994487124 /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
+		72D742430F29950E6336C529 /* GamePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePhase.swift; sourceTree = "<group>"; };
+		8EEB0A4D6237AD3FD93D8048 /* RPGAlarm.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RPGAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928D342F2C16C0E5B7232AF8 /* TimingGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingGameView.swift; sourceTree = "<group>"; };
+		A19E7F90585CCB0FAECA4FAF /* MathGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameView.swift; sourceTree = "<group>"; };
+		A8AD2F249DF25355B280DFB0 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
+		BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+FadeIn.swift"; sourceTree = "<group>"; };
+		C24E19DC59447E8FBA7473D0 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		CA5A62AC0EE6D0901C963022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7958DEB077C02C7A5DE8377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestion.swift; sourceTree = "<group>"; };
+		EFB8F6A26BCECE7C99F9451A /* icon.svg */ = {isa = PBXFileReference; path = icon.svg; sourceTree = "<group>"; };
+		F0187368ADEC90657DCE5ADA /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
+		"TEMP_9CD9A7A2-00E8-4762-BD06-9900708AA435" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922FE8C69EECC5CC1EB9B0CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5C216ABC01677427EF3CF1 /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C417D87362623A6FF03DDD4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C38C949488754819710C422 /* Color+RPG.swift */,
+				BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		117CF33FF645919B6F96E15E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2316982DAAAE0CD76056953C /* AlarmModel.swift */,
+				72D742430F29950E6336C529 /* GamePhase.swift */,
+				ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		216AEAF257328F7DDF5CE822 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F0187368ADEC90657DCE5ADA /* AudioService.swift */,
+				5B4A018A74C47B0F4931968D /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44E79FAE6C8E944381C7B142 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3999072A7204373B8155DBA4 /* RPGButtonStyle.swift */,
+				2571EAE9723A94E816FA5D78 /* RPGCardView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4BD4C3D34D0B59C824B15C09 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C24E19DC59447E8FBA7473D0 /* AlarmViewModel.swift */,
+				0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E587A7AA00DF07552F7BBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB0A4D6237AD3FD93D8048 /* RPGAlarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A8971387F74F32C716D5640 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				49520648B52D93E7C5C23541 /* RootView.swift */,
+				D3E5E92E95EA9DF414FBC273 /* Alarm */,
+				7BA4B95F2CAEFAEB3089D42C /* Game */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BA4B95F2CAEFAEB3089D42C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */,
+				A19E7F90585CCB0FAECA4FAF /* MathGameView.swift */,
+				A8AD2F249DF25355B280DFB0 /* MemoryGameView.swift */,
+				928D342F2C16C0E5B7232AF8 /* TimingGameView.swift */,
+				BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7E33C70C112C153AC0D508AB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7958DEB077C02C7A5DE8377 /* Assets.xcassets */,
+				2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */,
+				EFB8F6A26BCECE7C99F9451A /* icon.svg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85DEAFC5420AD64242332C97 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA5A62AC0EE6D0901C963022 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C4D512C7A45D1759DD653E46 = {
+			isa = PBXGroup;
+			children = (
+				85DEAFC5420AD64242332C97 /* App */,
+				44E79FAE6C8E944381C7B142 /* Components */,
+				0C417D87362623A6FF03DDD4 /* Extensions */,
+				117CF33FF645919B6F96E15E /* Models */,
+				7E33C70C112C153AC0D508AB /* Resources */,
+				F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */,
+				216AEAF257328F7DDF5CE822 /* Services */,
+				4BD4C3D34D0B59C824B15C09 /* ViewModels */,
+				6A8971387F74F32C716D5640 /* Views */,
+				5E587A7AA00DF07552F7BBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E5E92E95EA9DF414FBC273 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				173A11CD31A92D2AAC8A69A8 /* AlarmEditView.swift */,
+				6A09AD46809E09B994487124 /* AlarmListView.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				2A920E0D89B33AB324723D07 /* Info.plist */,
+			);
+			path = RPGAlarm;
+			sourceTree = "<group>";
+		};
+		"TEMP_F68F273B-53F0-4438-80F2-FF497B441EAF" /* . */ = {
+			isa = PBXGroup;
+			children = (
+				"TEMP_9CD9A7A2-00E8-4762-BD06-9900708AA435" /* RPGAlarmApp.swift */,
+				F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */,
+				4BD4C3D34D0B59C824B15C09 /* ViewModels */,
+				85DEAFC5420AD64242332C97 /* App */,
+				7E33C70C112C153AC0D508AB /* Resources */,
+				117CF33FF645919B6F96E15E /* Models */,
+				0C417D87362623A6FF03DDD4 /* Extensions */,
+				44E79FAE6C8E944381C7B142 /* Components */,
+				6A8971387F74F32C716D5640 /* Views */,
+				216AEAF257328F7DDF5CE822 /* Services */,
+			);
+			name = .;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D39FBA192B149F6F0CE547 /* RPGAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3207C6C1FDE9222D42825D /* Build configuration list for PBXNativeTarget "RPGAlarm" */;
+			buildPhases = (
+				E1EB0E116761AD18E3C3B3A6 /* Sources */,
+				75A97956C62135AD6C85DF53 /* Resources */,
+				922FE8C69EECC5CC1EB9B0CE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RPGAlarm;
+			packageProductDependencies = (
+				4FA2C15C212F200E4CAF91EB /* ConfettiSwiftUI */,
+			);
+			productName = RPGAlarm;
+			productReference = 8EEB0A4D6237AD3FD93D8048 /* RPGAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EF6BFE0258206444A005846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					06D39FBA192B149F6F0CE547 = {
+						DevelopmentTeam = TRB4NNZXDQ;
+					};
+				};
+			};
+			buildConfigurationList = C69C62DCF4582D46C6FB3D8E /* Build configuration list for PBXProject "RPGAlarm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C4D512C7A45D1759DD653E46;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				24BAA5627D1F3ED74702FAC0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5E587A7AA00DF07552F7BBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D39FBA192B149F6F0CE547 /* RPGAlarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A97956C62135AD6C85DF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */,
+				3CA7C038D8EEF7E481AE86A0 /* icon.svg in Resources */,
+				93F3D12134ACFB8CC3D1E1E4 /* icon_1024.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1EB0E116761AD18E3C3B3A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A86B9D94C3BE664F7790F90 /* ActiveGameView.swift in Sources */,
+				6D98FE96936F1B5F5C10E6E4 /* AlarmEditView.swift in Sources */,
+				5735A06DBCAF6AC97A4E28FE /* AlarmListView.swift in Sources */,
+				9A8692FDA56463F2AAB904F3 /* AlarmModel.swift in Sources */,
+				403EC1D292486E4BC3D35E6A /* AlarmViewModel.swift in Sources */,
+				A58177FBA8D1C7D859866129 /* AppDelegate.swift in Sources */,
+				F68A93BA020667F20B522D00 /* AudioService.swift in Sources */,
+				069B622A497B8FBE151AEECD /* Color+RPG.swift in Sources */,
+				214046ABA09B877BBD7E1EC7 /* GamePhase.swift in Sources */,
+				9CA53F04EE634FA64483805C /* GameViewModel.swift in Sources */,
+				CD6A1220B530B8791702293E /* MathGameView.swift in Sources */,
+				9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */,
+				7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */,
+				3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */,
+				4E7E90836812994333C8BB1F /* RPGAlarmApp.swift in Sources */,
+				E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */,
+				7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */,
+				77A92A91D96559614F469A0A /* RootView.swift in Sources */,
+				C7F53583C3351DCFB365C8E7 /* TimingGameView.swift in Sources */,
+				32C7C4E5E5BE9AD1FD73BF6F /* View+FadeIn.swift in Sources */,
+				82EF00FDDCA0B71669D75FD9 /* WinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		78468DA5869248BC9D1D7DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRB4NNZXDQ;
+				INFOPLIST_FILE = RPGAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpgalarm.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80E752296A51403D7BB58C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = TRB4NNZXDQ;
+				INFOPLIST_FILE = RPGAlarm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpgalarm.app;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DC5A325289F7C8FA116D114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D71ABD01374EBDBABEAC9057 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E3207C6C1FDE9222D42825D /* Build configuration list for PBXNativeTarget "RPGAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78468DA5869248BC9D1D7DF5 /* Debug */,
+				80E752296A51403D7BB58C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C69C62DCF4582D46C6FB3D8E /* Build configuration list for PBXProject "RPGAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DC5A325289F7C8FA116D114 /* Debug */,
+				D71ABD01374EBDBABEAC9057 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24BAA5627D1F3ED74702FAC0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FA2C15C212F200E4CAF91EB /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24BAA5627D1F3ED74702FAC0 /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4EF6BFE0258206444A005846 /* Project object */;
+}
