@@ -9,152 +9,59 @@
 /* Begin PBXBuildFile section */
 		069B622A497B8FBE151AEECD /* Color+RPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C949488754819710C422 /* Color+RPG.swift */; };
 		0A86B9D94C3BE664F7790F90 /* ActiveGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */; };
-		2056694AA18EEC5E84B99E60 /* pre-applypatch.sample in Resources */ = {isa = PBXBuildFile; fileRef = D34AA13DA8C730CDBE617595 /* pre-applypatch.sample */; };
 		214046ABA09B877BBD7E1EC7 /* GamePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D742430F29950E6336C529 /* GamePhase.swift */; };
 		29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7958DEB077C02C7A5DE8377 /* Assets.xcassets */; };
-		3237D52EDA2FA6B44195D876 /* pre-push.sample in Resources */ = {isa = PBXBuildFile; fileRef = E9F79F4F10E480906AB37E85 /* pre-push.sample */; };
 		32C7C4E5E5BE9AD1FD73BF6F /* View+FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */; };
-		330DC38370A619555933E959 /* fsmonitor-watchman.sample in Resources */ = {isa = PBXBuildFile; fileRef = 504092C6A9580701D594F684 /* fsmonitor-watchman.sample */; };
-		3331302F802616391787E1DB /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_22B95FC4-E04F-4305-A2DB-11983B4F6E13" /* RPGAlarmApp.swift */; };
 		3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A018A74C47B0F4931968D /* NotificationService.swift */; };
 		3CA7C038D8EEF7E481AE86A0 /* icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = EFB8F6A26BCECE7C99F9451A /* icon.svg */; };
 		403EC1D292486E4BC3D35E6A /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24E19DC59447E8FBA7473D0 /* AlarmViewModel.swift */; };
-		409C538676DD1C0BB4337AAA /* applypatch-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 6E58541D907B2BD8C2DF82A3 /* applypatch-msg.sample */; };
-		47262C65E6CFAE0659840B2B /* pre-merge-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = C43C9533F35C849EAEBB24CE /* pre-merge-commit.sample */; };
-		51981B302941FEECB3F31721 /* update.sample in Resources */ = {isa = PBXBuildFile; fileRef = F748991F533F9EAD8D42CC09 /* update.sample */; };
 		5735A06DBCAF6AC97A4E28FE /* AlarmListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A09AD46809E09B994487124 /* AlarmListView.swift */; };
-		5DA621CC352244C57E72B4E3 /* pre-receive.sample in Resources */ = {isa = PBXBuildFile; fileRef = 496D349E4480BFE340F8A599 /* pre-receive.sample */; };
-		6BAC0F646D07CB33F508A879 /* prepare-commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = 74EBF3464A6BA572665EE0AE /* prepare-commit-msg.sample */; };
-		6D3BFD2BF2AF61767096DDBC /* settings.local.json in Resources */ = {isa = PBXBuildFile; fileRef = 0918B2905D349EE60FEE02AC /* settings.local.json */; };
 		6D98FE96936F1B5F5C10E6E4 /* AlarmEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A11CD31A92D2AAC8A69A8 /* AlarmEditView.swift */; };
 		7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AD2F249DF25355B280DFB0 /* MemoryGameView.swift */; };
 		77A92A91D96559614F469A0A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49520648B52D93E7C5C23541 /* RootView.swift */; };
 		7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571EAE9723A94E816FA5D78 /* RPGCardView.swift */; };
-		7B6B4624F9D8EC641F9D9484 /* pre-rebase.sample in Resources */ = {isa = PBXBuildFile; fileRef = B437768D141DA85262680052 /* pre-rebase.sample */; };
 		82EF00FDDCA0B71669D75FD9 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */; };
-		8D2CB59C1D96C737711B1659 /* pre-commit.sample in Resources */ = {isa = PBXBuildFile; fileRef = 48EAC7319985555798D1864B /* pre-commit.sample */; };
+		8FD46CF3305721F4CFA77A16 /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */; };
 		93F3D12134ACFB8CC3D1E1E4 /* icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */; };
-		944AF5783339B371484ED7E8 /* push-to-checkout.sample in Resources */ = {isa = PBXBuildFile; fileRef = B882D346D332475CEFD781AC /* push-to-checkout.sample */; };
 		9A8692FDA56463F2AAB904F3 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316982DAAAE0CD76056953C /* AlarmModel.swift */; };
 		9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */; };
 		9CA53F04EE634FA64483805C /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */; };
 		A58177FBA8D1C7D859866129 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5A62AC0EE6D0901C963022 /* AppDelegate.swift */; };
-		A606BE63EB8D65DB997D943F /* post-update.sample in Resources */ = {isa = PBXBuildFile; fileRef = 674BDF0BE032F7CEEEC3CC36 /* post-update.sample */; };
-		BA4EA7B60AEDBEED42F90504 /* commit-msg.sample in Resources */ = {isa = PBXBuildFile; fileRef = DDED26A2C69ECAF3C725ACE1 /* commit-msg.sample */; };
 		C7F53583C3351DCFB365C8E7 /* TimingGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928D342F2C16C0E5B7232AF8 /* TimingGameView.swift */; };
 		CD6A1220B530B8791702293E /* MathGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E7F90585CCB0FAECA4FAF /* MathGameView.swift */; };
 		E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999072A7204373B8155DBA4 /* RPGButtonStyle.swift */; };
-		F4EC909848D3660852484535 /* sendemail-validate.sample in Resources */ = {isa = PBXBuildFile; fileRef = 517541C891181ACAE7B3ACCD /* sendemail-validate.sample */; };
 		F68A93BA020667F20B522D00 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0187368ADEC90657DCE5ADA /* AudioService.swift */; };
 		FE5C216ABC01677427EF3CF1 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4FA2C15C212F200E4CAF91EB /* ConfettiSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
-		0918B2905D349EE60FEE02AC /* settings.local.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.local.json; sourceTree = "<group>"; };
-		09D3D3697593AC2C5691DAD6 /* fbcc2f09464bb34fdf464c6090834c6f8f4553 */ = {isa = PBXFileReference; path = fbcc2f09464bb34fdf464c6090834c6f8f4553; sourceTree = "<group>"; };
-		0B5EFC222A2BFB194557C549 /* c00596a7fca3f3d4bdd64053b69d86745f9e10 */ = {isa = PBXFileReference; path = c00596a7fca3f3d4bdd64053b69d86745f9e10; sourceTree = "<group>"; };
-		0EFFEF8BDC094D25E2A976CC /* bc4f8f83adf4c3366c2931f3ac29df9440c50e */ = {isa = PBXFileReference; path = bc4f8f83adf4c3366c2931f3ac29df9440c50e; sourceTree = "<group>"; };
-		1152B05B218C493D9E8BE9BE /* c42ccef6204babdc9016f3be33a9c728be983b */ = {isa = PBXFileReference; path = c42ccef6204babdc9016f3be33a9c728be983b; sourceTree = "<group>"; };
-		12B4D2DB257395391A707123 /* main */ = {isa = PBXFileReference; path = main; sourceTree = "<group>"; };
 		173A11CD31A92D2AAC8A69A8 /* AlarmEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmEditView.swift; sourceTree = "<group>"; };
-		1C1CB856F974987D925FF570 /* 1651f29ea5b7183be44d12913d81d69d6581c2 */ = {isa = PBXFileReference; path = 1651f29ea5b7183be44d12913d81d69d6581c2; sourceTree = "<group>"; };
-		1E544C27345760E1515CF7F3 /* 8db98b18f209189562f61ee276659813f78ca0 */ = {isa = PBXFileReference; path = 8db98b18f209189562f61ee276659813f78ca0; sourceTree = "<group>"; };
-		22AD6B221DA33EAC7B5AF993 /* HEAD */ = {isa = PBXFileReference; path = HEAD; sourceTree = "<group>"; };
 		2316982DAAAE0CD76056953C /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
-		23D638523D602939BA9D229C /* c3aaa8ac5712db0455b97327b33bd365f7a077 */ = {isa = PBXFileReference; path = c3aaa8ac5712db0455b97327b33bd365f7a077; sourceTree = "<group>"; };
 		2571EAE9723A94E816FA5D78 /* RPGCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGCardView.swift; sourceTree = "<group>"; };
-		293D546A6F260E5803DECC21 /* f15926525e790f0364e6d14641214dad051e94 */ = {isa = PBXFileReference; path = f15926525e790f0364e6d14641214dad051e94; sourceTree = "<group>"; };
 		2A920E0D89B33AB324723D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_1024.png; sourceTree = "<group>"; };
-		2B0C32E474B2BA9950ACB9B8 /* 4da76002ef49775230f7ea9ffa8941fd872cb4 */ = {isa = PBXFileReference; path = 4da76002ef49775230f7ea9ffa8941fd872cb4; sourceTree = "<group>"; };
-		2B1DAE96FE0B3C13F78460D8 /* 77466cda225567f10c29ff109e4400608cb0cb */ = {isa = PBXFileReference; path = 77466cda225567f10c29ff109e4400608cb0cb; sourceTree = "<group>"; };
-		30B9761BFB9ECFADA1CAA3C7 /* 03280ef64bd560cee9621978a0699ed90c5645 */ = {isa = PBXFileReference; path = 03280ef64bd560cee9621978a0699ed90c5645; sourceTree = "<group>"; };
-		315AE844D017063074CCBA83 /* 76b3ee2938177d18dcd8f88a16a6fb7f56fadc */ = {isa = PBXFileReference; path = 76b3ee2938177d18dcd8f88a16a6fb7f56fadc; sourceTree = "<group>"; };
-		31811E1AD77C55B0E6DD0DBC /* ec63bceb0558351509ccb132088e1bfad707d9 */ = {isa = PBXFileReference; path = ec63bceb0558351509ccb132088e1bfad707d9; sourceTree = "<group>"; };
-		357FFBA96BC364E02DE919D6 /* 735a1a400e366a79e654f90826be667b40ec4e */ = {isa = PBXFileReference; path = 735a1a400e366a79e654f90826be667b40ec4e; sourceTree = "<group>"; };
 		3999072A7204373B8155DBA4 /* RPGButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGButtonStyle.swift; sourceTree = "<group>"; };
-		4405AAD91D8E32E237F2F2C9 /* bc41fd81a6d480e548bae169cef588405dc14a */ = {isa = PBXFileReference; path = bc41fd81a6d480e548bae169cef588405dc14a; sourceTree = "<group>"; };
-		4572F8E4077EC4A8A6B893F5 /* index */ = {isa = PBXFileReference; path = index; sourceTree = "<group>"; };
-		48EAC7319985555798D1864B /* pre-commit.sample */ = {isa = PBXFileReference; path = "pre-commit.sample"; sourceTree = "<group>"; };
 		49520648B52D93E7C5C23541 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		496D349E4480BFE340F8A599 /* pre-receive.sample */ = {isa = PBXFileReference; path = "pre-receive.sample"; sourceTree = "<group>"; };
-		4A9C301D6C0E1FCB3992F107 /* 2e10cde3659e827af3a74cdef013e7ca368a3e */ = {isa = PBXFileReference; path = 2e10cde3659e827af3a74cdef013e7ca368a3e; sourceTree = "<group>"; };
 		4C38C949488754819710C422 /* Color+RPG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RPG.swift"; sourceTree = "<group>"; };
-		4FC38A1F8362D7B523C1F240 /* 1e55ed0a26dac9a54578a2111d572f5ce2bae0 */ = {isa = PBXFileReference; path = 1e55ed0a26dac9a54578a2111d572f5ce2bae0; sourceTree = "<group>"; };
-		500DCEDCC1770817E01FFC67 /* 2d1e8c2716bcd75c1e2ae1a2051e093ea84a8a */ = {isa = PBXFileReference; path = 2d1e8c2716bcd75c1e2ae1a2051e093ea84a8a; sourceTree = "<group>"; };
-		504092C6A9580701D594F684 /* fsmonitor-watchman.sample */ = {isa = PBXFileReference; path = "fsmonitor-watchman.sample"; sourceTree = "<group>"; };
-		5078AE853877519B117D318F /* cf7b35d1d414fc04cc0297ae59f3a9c5ea2ac5 */ = {isa = PBXFileReference; path = cf7b35d1d414fc04cc0297ae59f3a9c5ea2ac5; sourceTree = "<group>"; };
-		50FF4EF332BAA78C04453632 /* 62c3972f2cd7bf2228e60fc0c8abfb56465e6f */ = {isa = PBXFileReference; path = 62c3972f2cd7bf2228e60fc0c8abfb56465e6f; sourceTree = "<group>"; };
-		517541C891181ACAE7B3ACCD /* sendemail-validate.sample */ = {isa = PBXFileReference; path = "sendemail-validate.sample"; sourceTree = "<group>"; };
-		5232E1968F4A385754AC1FAD /* d18204759b031c5f1e1a4cdbe62c70794f3222 */ = {isa = PBXFileReference; path = d18204759b031c5f1e1a4cdbe62c70794f3222; sourceTree = "<group>"; };
-		539AA9FB5FDB5CEA33437898 /* ef398901462a0d2c924ffe2554dbb8abf970f5 */ = {isa = PBXFileReference; path = ef398901462a0d2c924ffe2554dbb8abf970f5; sourceTree = "<group>"; };
-		5825135A2429998D1B3612C2 /* 2c4c4dff2b17ea73fee302744af406dd058611 */ = {isa = PBXFileReference; path = 2c4c4dff2b17ea73fee302744af406dd058611; sourceTree = "<group>"; };
 		5B4A018A74C47B0F4931968D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveGameView.swift; sourceTree = "<group>"; };
-		674BDF0BE032F7CEEEC3CC36 /* post-update.sample */ = {isa = PBXFileReference; path = "post-update.sample"; sourceTree = "<group>"; };
-		68E9393BC91AF26A0D958B44 /* 18012632a412456a8d5b20c070b33864c0eb6d */ = {isa = PBXFileReference; path = 18012632a412456a8d5b20c070b33864c0eb6d; sourceTree = "<group>"; };
 		6A09AD46809E09B994487124 /* AlarmListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmListView.swift; sourceTree = "<group>"; };
-		6C9429F860294CC427DD8407 /* 204cdd080077edf3eab77daea7a2f0947eab0e */ = {isa = PBXFileReference; path = 204cdd080077edf3eab77daea7a2f0947eab0e; sourceTree = "<group>"; };
-		6E58541D907B2BD8C2DF82A3 /* applypatch-msg.sample */ = {isa = PBXFileReference; path = "applypatch-msg.sample"; sourceTree = "<group>"; };
-		6FA4A36A9247DA111BFBFE7E /* main */ = {isa = PBXFileReference; path = main; sourceTree = "<group>"; };
-		70AE34E36A214EED48A0F6FB /* 71f68cb91a4e96c5f5460a48381c7d4950ee67 */ = {isa = PBXFileReference; path = 71f68cb91a4e96c5f5460a48381c7d4950ee67; sourceTree = "<group>"; };
 		72D742430F29950E6336C529 /* GamePhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePhase.swift; sourceTree = "<group>"; };
-		74EBF3464A6BA572665EE0AE /* prepare-commit-msg.sample */ = {isa = PBXFileReference; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
-		773CD77AF2AB5205C50EE1B5 /* 1306c5c94396f51ad98526f4893727db3f57fb */ = {isa = PBXFileReference; path = 1306c5c94396f51ad98526f4893727db3f57fb; sourceTree = "<group>"; };
-		779E92016732BE00D04167BC /* 0e6d1bbd1226e3a2f429f9467cbff9500fd713 */ = {isa = PBXFileReference; path = 0e6d1bbd1226e3a2f429f9467cbff9500fd713; sourceTree = "<group>"; };
-		7F98E6C04B02BEBECE93C96C /* 65d08bdbc723d1c906bfc793ab60516f6749ff */ = {isa = PBXFileReference; path = 65d08bdbc723d1c906bfc793ab60516f6749ff; sourceTree = "<group>"; };
-		872519EDA141523F2A15ECA6 /* config */ = {isa = PBXFileReference; path = config; sourceTree = "<group>"; };
-		8C3DBF6784E7B78DADBAD972 /* def8212e68fdfea7c58cd5319737d8e16d053c */ = {isa = PBXFileReference; path = def8212e68fdfea7c58cd5319737d8e16d053c; sourceTree = "<group>"; };
-		8D3C38232CAD494E78CD0464 /* description */ = {isa = PBXFileReference; path = description; sourceTree = "<group>"; };
-		8D9CD5F7DC1FB6D923E88A57 /* 00a0206dc5206573b395e957fabdd161d08416 */ = {isa = PBXFileReference; path = 00a0206dc5206573b395e957fabdd161d08416; sourceTree = "<group>"; };
-		8DA6E3A55032E9B56BC3AA81 /* e023b1e3630385a4f8de0d34b05c793753300e */ = {isa = PBXFileReference; path = e023b1e3630385a4f8de0d34b05c793753300e; sourceTree = "<group>"; };
 		8EEB0A4D6237AD3FD93D8048 /* RPGAlarm.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = RPGAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9119A4C74A87C078D736131C /* 20f9e6eec1dca67c571344b0ad77953694d2a9 */ = {isa = PBXFileReference; path = 20f9e6eec1dca67c571344b0ad77953694d2a9; sourceTree = "<group>"; };
-		913F317B29EC36315C287066 /* HEAD */ = {isa = PBXFileReference; path = HEAD; sourceTree = "<group>"; };
 		928D342F2C16C0E5B7232AF8 /* TimingGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingGameView.swift; sourceTree = "<group>"; };
-		97A2D2C1ED2F0CAACDF2ED5D /* 93f6eeef90980c05b62349d1568931fafa602a */ = {isa = PBXFileReference; path = 93f6eeef90980c05b62349d1568931fafa602a; sourceTree = "<group>"; };
-		9A37FE69245681F59B15EC64 /* 988fecc01fe1e88d754eb9ec0ebe2a192bcdf7 */ = {isa = PBXFileReference; path = 988fecc01fe1e88d754eb9ec0ebe2a192bcdf7; sourceTree = "<group>"; };
-		9D0FD4E990A2BA93A7EE1D31 /* 0459d1af6658f4ea5e4b4a527e6051c7f9c53e */ = {isa = PBXFileReference; path = 0459d1af6658f4ea5e4b4a527e6051c7f9c53e; sourceTree = "<group>"; };
-		9E4767E40C2888EA804F555E /* ef5f035c875232b226382553989d78371fcd58 */ = {isa = PBXFileReference; path = ef5f035c875232b226382553989d78371fcd58; sourceTree = "<group>"; };
 		A19E7F90585CCB0FAECA4FAF /* MathGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathGameView.swift; sourceTree = "<group>"; };
-		A452CC8999581F4C733BFB2D /* 52f02619b4fee6fe4e36a460a91e5902e15e3f */ = {isa = PBXFileReference; path = 52f02619b4fee6fe4e36a460a91e5902e15e3f; sourceTree = "<group>"; };
-		A56CB32270A6637680634350 /* 5688cd7739810251fdba5829b692f721d0341c */ = {isa = PBXFileReference; path = 5688cd7739810251fdba5829b692f721d0341c; sourceTree = "<group>"; };
 		A8AD2F249DF25355B280DFB0 /* MemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameView.swift; sourceTree = "<group>"; };
-		A98ED64104B69F092F36F9FB /* bd905a06196185ae1d48b42901bfd9c5274e73 */ = {isa = PBXFileReference; path = bd905a06196185ae1d48b42901bfd9c5274e73; sourceTree = "<group>"; };
-		AEC6CC8B66235AB9B4643437 /* 6fa351c2cace516b172e6924466fd22f9c361e */ = {isa = PBXFileReference; path = 6fa351c2cace516b172e6924466fd22f9c361e; sourceTree = "<group>"; };
-		B437768D141DA85262680052 /* pre-rebase.sample */ = {isa = PBXFileReference; path = "pre-rebase.sample"; sourceTree = "<group>"; };
-		B4A51964F45DB5D3A06667E0 /* 33f56a9708168ca4edbd29035f62faf4a91d3f */ = {isa = PBXFileReference; path = 33f56a9708168ca4edbd29035f62faf4a91d3f; sourceTree = "<group>"; };
-		B882D346D332475CEFD781AC /* push-to-checkout.sample */ = {isa = PBXFileReference; path = "push-to-checkout.sample"; sourceTree = "<group>"; };
-		BC5482AF3E3F248A5D86BE10 /* d82aa0615a8e0a457fe16502e605de84be9332 */ = {isa = PBXFileReference; path = d82aa0615a8e0a457fe16502e605de84be9332; sourceTree = "<group>"; };
 		BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
 		BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+FadeIn.swift"; sourceTree = "<group>"; };
 		C24E19DC59447E8FBA7473D0 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
-		C43C9533F35C849EAEBB24CE /* pre-merge-commit.sample */ = {isa = PBXFileReference; path = "pre-merge-commit.sample"; sourceTree = "<group>"; };
 		CA5A62AC0EE6D0901C963022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CA9398EE22D4287260885E4E /* d372520589959ca7c88e53b6e90575b75cdf07 */ = {isa = PBXFileReference; path = d372520589959ca7c88e53b6e90575b75cdf07; sourceTree = "<group>"; };
-		D12FE99FB7E0364D3860D6B0 /* 22aa14f050a0f5aa6730518ae04596a4f751dc */ = {isa = PBXFileReference; path = 22aa14f050a0f5aa6730518ae04596a4f751dc; sourceTree = "<group>"; };
-		D34AA13DA8C730CDBE617595 /* pre-applypatch.sample */ = {isa = PBXFileReference; path = "pre-applypatch.sample"; sourceTree = "<group>"; };
-		D3A0F4FDE51C75747237860A /* 9434a6254f0e9651f402737811be6634a03e9c */ = {isa = PBXFileReference; path = 9434a6254f0e9651f402737811be6634a03e9c; sourceTree = "<group>"; };
-		D6D31FD5F4638C7992E71365 /* exclude */ = {isa = PBXFileReference; path = exclude; sourceTree = "<group>"; };
 		D7958DEB077C02C7A5DE8377 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DDED26A2C69ECAF3C725ACE1 /* commit-msg.sample */ = {isa = PBXFileReference; path = "commit-msg.sample"; sourceTree = "<group>"; };
-		E19488CC7717871A46BFFAD8 /* a0d913249a6d1abda96f1d24d2a0a0e43a0d99 */ = {isa = PBXFileReference; path = a0d913249a6d1abda96f1d24d2a0a0e43a0d99; sourceTree = "<group>"; };
-		E28D70DDD050B7C4ED7D34EC /* 52111a3b205d50a2fec67d46aa7c554c16fc92 */ = {isa = PBXFileReference; path = 52111a3b205d50a2fec67d46aa7c554c16fc92; sourceTree = "<group>"; };
-		E65F1C5E047F5117C2D86013 /* main */ = {isa = PBXFileReference; path = main; sourceTree = "<group>"; };
-		E9F79F4F10E480906AB37E85 /* pre-push.sample */ = {isa = PBXFileReference; path = "pre-push.sample"; sourceTree = "<group>"; };
-		EA6EFCDB9CA7B36C236251E5 /* COMMIT_EDITMSG */ = {isa = PBXFileReference; path = COMMIT_EDITMSG; sourceTree = "<group>"; };
-		EC19C64EC963D25816B936E5 /* e4994ca877390f21958d0f4072bb0ec2751641 */ = {isa = PBXFileReference; path = e4994ca877390f21958d0f4072bb0ec2751641; sourceTree = "<group>"; };
 		ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestion.swift; sourceTree = "<group>"; };
-		EE74F41B660DA36157929878 /* main */ = {isa = PBXFileReference; path = main; sourceTree = "<group>"; };
 		EFB8F6A26BCECE7C99F9451A /* icon.svg */ = {isa = PBXFileReference; path = icon.svg; sourceTree = "<group>"; };
 		F0187368ADEC90657DCE5ADA /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
-		F748991F533F9EAD8D42CC09 /* update.sample */ = {isa = PBXFileReference; path = update.sample; sourceTree = "<group>"; };
-		F7841F880200827DD5E00BB5 /* ba78f38988240354427ee52cdd417c5cf7c62c */ = {isa = PBXFileReference; path = ba78f38988240354427ee52cdd417c5cf7c62c; sourceTree = "<group>"; };
-		FB69D896C905F63ABACFE5C5 /* 89531584846f6fd2f1caa552981e271c97526a */ = {isa = PBXFileReference; path = 89531584846f6fd2f1caa552981e271c97526a; sourceTree = "<group>"; };
-		FE29A2676AD3E17A7DDA7DD1 /* 4caeff5fe91207563d5a22998cfb3d9afb417a */ = {isa = PBXFileReference; path = 4caeff5fe91207563d5a22998cfb3d9afb417a; sourceTree = "<group>"; };
-		"TEMP_22B95FC4-E04F-4305-A2DB-11983B4F6E13" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
-		"TEMP_2A213D61-4279-4231-BC86-234C83B1B130" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		"TEMP_101CB258-86DC-487C-9473-49B22D95A213" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		"TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,39 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		033D9B144DD63F34BC479E94 /* c0 */ = {
-			isa = PBXGroup;
-			children = (
-				30B9761BFB9ECFADA1CAA3C7 /* 03280ef64bd560cee9621978a0699ed90c5645 */,
-			);
-			path = c0;
-			sourceTree = "<group>";
-		};
-		04FA789308DDCB75D950102F /* heads */ = {
-			isa = PBXGroup;
-			children = (
-				12B4D2DB257395391A707123 /* main */,
-			);
-			path = heads;
-			sourceTree = "<group>";
-		};
-		0823431166D8A7F3B5C3799A /* refs */ = {
-			isa = PBXGroup;
-			children = (
-				96C9B895814CE6B577728526 /* heads */,
-				D29B07F89A2DB4E97211FDF7 /* remotes */,
-			);
-			path = refs;
-			sourceTree = "<group>";
-		};
-		0B53B4CBF05BB28A11ECA0F3 /* 70 */ = {
-			isa = PBXGroup;
-			children = (
-				4405AAD91D8E32E237F2F2C9 /* bc41fd81a6d480e548bae169cef588405dc14a */,
-			);
-			path = 70;
-			sourceTree = "<group>";
-		};
 		0C417D87362623A6FF03DDD4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,38 +95,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		11FE1593E69D5AFFD19826ED /* 3b */ = {
-			isa = PBXGroup;
-			children = (
-				1E544C27345760E1515CF7F3 /* 8db98b18f209189562f61ee276659813f78ca0 */,
-			);
-			path = 3b;
-			sourceTree = "<group>";
-		};
-		143F9F5C9FB300D5895CB18D /* f2 */ = {
-			isa = PBXGroup;
-			children = (
-				4A9C301D6C0E1FCB3992F107 /* 2e10cde3659e827af3a74cdef013e7ca368a3e */,
-			);
-			path = f2;
-			sourceTree = "<group>";
-		};
-		1A3459B2D7BF3F18FAF0414F /* info */ = {
-			isa = PBXGroup;
-			children = (
-				D6D31FD5F4638C7992E71365 /* exclude */,
-			);
-			path = info;
-			sourceTree = "<group>";
-		};
-		20E4F86C7252F5220E76AFD6 /* origin */ = {
-			isa = PBXGroup;
-			children = (
-				6FA4A36A9247DA111BFBFE7E /* main */,
-			);
-			path = origin;
-			sourceTree = "<group>";
-		};
 		216AEAF257328F7DDF5CE822 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,99 +102,6 @@
 				5B4A018A74C47B0F4931968D /* NotificationService.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		2233E957B182B7218091F5A1 /* d4 */ = {
-			isa = PBXGroup;
-			children = (
-				A452CC8999581F4C733BFB2D /* 52f02619b4fee6fe4e36a460a91e5902e15e3f */,
-			);
-			path = d4;
-			sourceTree = "<group>";
-		};
-		2684C029C7E5DB47A1B89CDC /* 73 */ = {
-			isa = PBXGroup;
-			children = (
-				0B5EFC222A2BFB194557C549 /* c00596a7fca3f3d4bdd64053b69d86745f9e10 */,
-			);
-			path = 73;
-			sourceTree = "<group>";
-		};
-		2CE5EE4A03F41509886E8885 /* 3c */ = {
-			isa = PBXGroup;
-			children = (
-				500DCEDCC1770817E01FFC67 /* 2d1e8c2716bcd75c1e2ae1a2051e093ea84a8a */,
-			);
-			path = 3c;
-			sourceTree = "<group>";
-		};
-		34D5EFD5E9FD0A2784158B32 /* 58 */ = {
-			isa = PBXGroup;
-			children = (
-				9E4767E40C2888EA804F555E /* ef5f035c875232b226382553989d78371fcd58 */,
-			);
-			path = 58;
-			sourceTree = "<group>";
-		};
-		3ABAB85FE80E748EB4A17E3B /* 19 */ = {
-			isa = PBXGroup;
-			children = (
-				BC5482AF3E3F248A5D86BE10 /* d82aa0615a8e0a457fe16502e605de84be9332 */,
-			);
-			path = 19;
-			sourceTree = "<group>";
-		};
-		3BA8E41B8FAEEDE7D670ECE2 /* 12 */ = {
-			isa = PBXGroup;
-			children = (
-				CA9398EE22D4287260885E4E /* d372520589959ca7c88e53b6e90575b75cdf07 */,
-			);
-			path = 12;
-			sourceTree = "<group>";
-		};
-		3C48B40F2FC17D26E656D448 /* 85 */ = {
-			isa = PBXGroup;
-			children = (
-				23D638523D602939BA9D229C /* c3aaa8ac5712db0455b97327b33bd365f7a077 */,
-			);
-			path = 85;
-			sourceTree = "<group>";
-		};
-		3DDF0BB7531A9FD1788FDAA1 /* f8 */ = {
-			isa = PBXGroup;
-			children = (
-				315AE844D017063074CCBA83 /* 76b3ee2938177d18dcd8f88a16a6fb7f56fadc */,
-			);
-			path = f8;
-			sourceTree = "<group>";
-		};
-		3F086D756F680E28A2ECF36A /* hooks */ = {
-			isa = PBXGroup;
-			children = (
-				6E58541D907B2BD8C2DF82A3 /* applypatch-msg.sample */,
-				DDED26A2C69ECAF3C725ACE1 /* commit-msg.sample */,
-				504092C6A9580701D594F684 /* fsmonitor-watchman.sample */,
-				674BDF0BE032F7CEEEC3CC36 /* post-update.sample */,
-				D34AA13DA8C730CDBE617595 /* pre-applypatch.sample */,
-				48EAC7319985555798D1864B /* pre-commit.sample */,
-				C43C9533F35C849EAEBB24CE /* pre-merge-commit.sample */,
-				E9F79F4F10E480906AB37E85 /* pre-push.sample */,
-				B437768D141DA85262680052 /* pre-rebase.sample */,
-				496D349E4480BFE340F8A599 /* pre-receive.sample */,
-				74EBF3464A6BA572665EE0AE /* prepare-commit-msg.sample */,
-				B882D346D332475CEFD781AC /* push-to-checkout.sample */,
-				517541C891181ACAE7B3ACCD /* sendemail-validate.sample */,
-				F748991F533F9EAD8D42CC09 /* update.sample */,
-			);
-			path = hooks;
-			sourceTree = "<group>";
-		};
-		421B96070C3A3F36DC38CF3F /* 6f */ = {
-			isa = PBXGroup;
-			children = (
-				AEC6CC8B66235AB9B4643437 /* 6fa351c2cace516b172e6924466fd22f9c361e */,
-			);
-			path = 6f;
 			sourceTree = "<group>";
 		};
 		44E79FAE6C8E944381C7B142 /* Components */ = {
@@ -364,14 +113,6 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		46D81333BA65DF93E5247840 /* b5 */ = {
-			isa = PBXGroup;
-			children = (
-				F7841F880200827DD5E00BB5 /* ba78f38988240354427ee52cdd417c5cf7c62c */,
-			);
-			path = b5;
-			sourceTree = "<group>";
-		};
 		4BD4C3D34D0B59C824B15C09 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,54 +120,6 @@
 				0829E9DD9C274BA8D2A6120D /* GameViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		4FB70A80098102C342DED0AF /* 2a */ = {
-			isa = PBXGroup;
-			children = (
-				9D0FD4E990A2BA93A7EE1D31 /* 0459d1af6658f4ea5e4b4a527e6051c7f9c53e */,
-			);
-			path = 2a;
-			sourceTree = "<group>";
-		};
-		51E386BB7C94E796B1115103 /* 32 */ = {
-			isa = PBXGroup;
-			children = (
-				8C3DBF6784E7B78DADBAD972 /* def8212e68fdfea7c58cd5319737d8e16d053c */,
-			);
-			path = 32;
-			sourceTree = "<group>";
-		};
-		54E308FEA569CFC97FA5CF06 /* 82 */ = {
-			isa = PBXGroup;
-			children = (
-				D12FE99FB7E0364D3860D6B0 /* 22aa14f050a0f5aa6730518ae04596a4f751dc */,
-			);
-			path = 82;
-			sourceTree = "<group>";
-		};
-		5C47E5F73ED02164C5121962 /* e1 */ = {
-			isa = PBXGroup;
-			children = (
-				1152B05B218C493D9E8BE9BE /* c42ccef6204babdc9016f3be33a9c728be983b */,
-			);
-			path = e1;
-			sourceTree = "<group>";
-		};
-		5D41A73987A8635E42054B76 /* 17 */ = {
-			isa = PBXGroup;
-			children = (
-				2B0C32E474B2BA9950ACB9B8 /* 4da76002ef49775230f7ea9ffa8941fd872cb4 */,
-			);
-			path = 17;
-			sourceTree = "<group>";
-		};
-		5DB31C8933D761260C206DD8 /* 14 */ = {
-			isa = PBXGroup;
-			children = (
-				9119A4C74A87C078D736131C /* 20f9e6eec1dca67c571344b0ad77953694d2a9 */,
-			);
-			path = 14;
 			sourceTree = "<group>";
 		};
 		5E587A7AA00DF07552F7BBCB /* Products */ = {
@@ -437,48 +130,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5FC0A9CEEC964FBE395147C8 /* 97 */ = {
-			isa = PBXGroup;
-			children = (
-				E28D70DDD050B7C4ED7D34EC /* 52111a3b205d50a2fec67d46aa7c554c16fc92 */,
-				0EFFEF8BDC094D25E2A976CC /* bc4f8f83adf4c3366c2931f3ac29df9440c50e */,
-			);
-			path = 97;
-			sourceTree = "<group>";
-		};
-		6396D805AF35E5C519516501 /* f0 */ = {
-			isa = PBXGroup;
-			children = (
-				2B1DAE96FE0B3C13F78460D8 /* 77466cda225567f10c29ff109e4400608cb0cb */,
-			);
-			path = f0;
-			sourceTree = "<group>";
-		};
-		642DFA0F88FB325A1F2B998D /* 93 */ = {
-			isa = PBXGroup;
-			children = (
-				9A37FE69245681F59B15EC64 /* 988fecc01fe1e88d754eb9ec0ebe2a192bcdf7 */,
-				773CD77AF2AB5205C50EE1B5 /* 1306c5c94396f51ad98526f4893727db3f57fb */,
-			);
-			path = 93;
-			sourceTree = "<group>";
-		};
-		65748674AB68C9416866B053 /* 75 */ = {
-			isa = PBXGroup;
-			children = (
-				FE29A2676AD3E17A7DDA7DD1 /* 4caeff5fe91207563d5a22998cfb3d9afb417a */,
-			);
-			path = 75;
-			sourceTree = "<group>";
-		};
-		6743FBD3382301D7292A5AD6 /* 28 */ = {
-			isa = PBXGroup;
-			children = (
-				6C9429F860294CC427DD8407 /* 204cdd080077edf3eab77daea7a2f0947eab0e */,
-			);
-			path = 28;
-			sourceTree = "<group>";
-		};
 		6A8971387F74F32C716D5640 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,84 +138,6 @@
 				7BA4B95F2CAEFAEB3089D42C /* Game */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		6A8DD85CB8A17B31A1C9EC3D /* 6a */ = {
-			isa = PBXGroup;
-			children = (
-				31811E1AD77C55B0E6DD0DBC /* ec63bceb0558351509ccb132088e1bfad707d9 */,
-			);
-			path = 6a;
-			sourceTree = "<group>";
-		};
-		6E5E582935B481C06D85D20C /* dc */ = {
-			isa = PBXGroup;
-			children = (
-				B4A51964F45DB5D3A06667E0 /* 33f56a9708168ca4edbd29035f62faf4a91d3f */,
-			);
-			path = dc;
-			sourceTree = "<group>";
-		};
-		730F79A228F71C9FCEC02CD3 /* origin */ = {
-			isa = PBXGroup;
-			children = (
-				E65F1C5E047F5117C2D86013 /* main */,
-			);
-			path = origin;
-			sourceTree = "<group>";
-		};
-		7A00D6AFDFDFF3D1BAA5B3CF /* objects */ = {
-			isa = PBXGroup;
-			children = (
-				A48FFDC5DF2FE96E4993D9C1 /* 0d */,
-				4FB70A80098102C342DED0AF /* 2a */,
-				8CAA3E5F58B9B69FC93F8052 /* 2f */,
-				11FE1593E69D5AFFD19826ED /* 3b */,
-				2CE5EE4A03F41509886E8885 /* 3c */,
-				D92F2BB247359892E8B45B27 /* 5c */,
-				6A8DD85CB8A17B31A1C9EC3D /* 6a */,
-				8814BCDE7A3B9252EDF4C5D8 /* 6e */,
-				421B96070C3A3F36DC38CF3F /* 6f */,
-				BC730A92E464ADAD12957532 /* 9c */,
-				3BA8E41B8FAEEDE7D670ECE2 /* 12 */,
-				5DB31C8933D761260C206DD8 /* 14 */,
-				5D41A73987A8635E42054B76 /* 17 */,
-				3ABAB85FE80E748EB4A17E3B /* 19 */,
-				E4908AA6BD18EE0BA0B5D99C /* 20 */,
-				6743FBD3382301D7292A5AD6 /* 28 */,
-				51E386BB7C94E796B1115103 /* 32 */,
-				34D5EFD5E9FD0A2784158B32 /* 58 */,
-				DD80F5490DCB4EB24521E4BE /* 67 */,
-				0B53B4CBF05BB28A11ECA0F3 /* 70 */,
-				2684C029C7E5DB47A1B89CDC /* 73 */,
-				65748674AB68C9416866B053 /* 75 */,
-				E2429C60EBAEB93E677EBEB1 /* 81 */,
-				54E308FEA569CFC97FA5CF06 /* 82 */,
-				3C48B40F2FC17D26E656D448 /* 85 */,
-				F1FBFD7641C697EFDDA66502 /* 91 */,
-				642DFA0F88FB325A1F2B998D /* 93 */,
-				5FC0A9CEEC964FBE395147C8 /* 97 */,
-				E599F8E349484402083E0BA1 /* a6 */,
-				A16B5A54788C52C967CD0D83 /* a7 */,
-				A9CE23F1D7821C326B8E39B5 /* a9 */,
-				F5F1BBD060F3E127C0000D1D /* ae */,
-				46D81333BA65DF93E5247840 /* b5 */,
-				814DD175D4128CE1D90B7C84 /* b8 */,
-				7EBE8E8E543958C0CCCFEA79 /* bc */,
-				033D9B144DD63F34BC479E94 /* c0 */,
-				FA656AB6327C39BA8760BC4F /* c7 */,
-				2233E957B182B7218091F5A1 /* d4 */,
-				9A796B25556D1C712DEAEF76 /* d8 */,
-				6E5E582935B481C06D85D20C /* dc */,
-				5C47E5F73ED02164C5121962 /* e1 */,
-				808876A1B947AE6A38289A06 /* e6 */,
-				6396D805AF35E5C519516501 /* f0 */,
-				143F9F5C9FB300D5895CB18D /* f2 */,
-				9ED42DA47BA08690F22F271B /* f4 */,
-				3DDF0BB7531A9FD1788FDAA1 /* f8 */,
-				C52819BA6AFD967E60526C33 /* ff */,
-			);
-			path = objects;
 			sourceTree = "<group>";
 		};
 		7BA4B95F2CAEFAEB3089D42C /* Game */ = {
@@ -589,49 +162,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		7EBE8E8E543958C0CCCFEA79 /* bc */ = {
-			isa = PBXGroup;
-			children = (
-				4FC38A1F8362D7B523C1F240 /* 1e55ed0a26dac9a54578a2111d572f5ce2bae0 */,
-				357FFBA96BC364E02DE919D6 /* 735a1a400e366a79e654f90826be667b40ec4e */,
-				EC19C64EC963D25816B936E5 /* e4994ca877390f21958d0f4072bb0ec2751641 */,
-			);
-			path = bc;
-			sourceTree = "<group>";
-		};
-		808876A1B947AE6A38289A06 /* e6 */ = {
-			isa = PBXGroup;
-			children = (
-				70AE34E36A214EED48A0F6FB /* 71f68cb91a4e96c5f5460a48381c7d4950ee67 */,
-			);
-			path = e6;
-			sourceTree = "<group>";
-		};
-		814DD175D4128CE1D90B7C84 /* b8 */ = {
-			isa = PBXGroup;
-			children = (
-				8D9CD5F7DC1FB6D923E88A57 /* 00a0206dc5206573b395e957fabdd161d08416 */,
-			);
-			path = b8;
-			sourceTree = "<group>";
-		};
-		83F44005E08DF8B532E71788 /* .git */ = {
-			isa = PBXGroup;
-			children = (
-				EA6EFCDB9CA7B36C236251E5 /* COMMIT_EDITMSG */,
-				872519EDA141523F2A15ECA6 /* config */,
-				8D3C38232CAD494E78CD0464 /* description */,
-				913F317B29EC36315C287066 /* HEAD */,
-				4572F8E4077EC4A8A6B893F5 /* index */,
-				3F086D756F680E28A2ECF36A /* hooks */,
-				1A3459B2D7BF3F18FAF0414F /* info */,
-				B188F1264DA7CFC6B3A7DFCB /* logs */,
-				7A00D6AFDFDFF3D1BAA5B3CF /* objects */,
-				0823431166D8A7F3B5C3799A /* refs */,
-			);
-			path = .git;
-			sourceTree = "<group>";
-		};
 		85DEAFC5420AD64242332C97 /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -640,110 +170,9 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		8814BCDE7A3B9252EDF4C5D8 /* 6e */ = {
-			isa = PBXGroup;
-			children = (
-				7F98E6C04B02BEBECE93C96C /* 65d08bdbc723d1c906bfc793ab60516f6749ff */,
-			);
-			path = 6e;
-			sourceTree = "<group>";
-		};
-		8A849FDEEB9D944E5E520C0F /* remotes */ = {
-			isa = PBXGroup;
-			children = (
-				730F79A228F71C9FCEC02CD3 /* origin */,
-			);
-			path = remotes;
-			sourceTree = "<group>";
-		};
-		8CAA3E5F58B9B69FC93F8052 /* 2f */ = {
-			isa = PBXGroup;
-			children = (
-				5078AE853877519B117D318F /* cf7b35d1d414fc04cc0297ae59f3a9c5ea2ac5 */,
-			);
-			path = 2f;
-			sourceTree = "<group>";
-		};
-		96C9B895814CE6B577728526 /* heads */ = {
-			isa = PBXGroup;
-			children = (
-				EE74F41B660DA36157929878 /* main */,
-			);
-			path = heads;
-			sourceTree = "<group>";
-		};
-		9A796B25556D1C712DEAEF76 /* d8 */ = {
-			isa = PBXGroup;
-			children = (
-				293D546A6F260E5803DECC21 /* f15926525e790f0364e6d14641214dad051e94 */,
-			);
-			path = d8;
-			sourceTree = "<group>";
-		};
-		9ED42DA47BA08690F22F271B /* f4 */ = {
-			isa = PBXGroup;
-			children = (
-				539AA9FB5FDB5CEA33437898 /* ef398901462a0d2c924ffe2554dbb8abf970f5 */,
-			);
-			path = f4;
-			sourceTree = "<group>";
-		};
-		A16B5A54788C52C967CD0D83 /* a7 */ = {
-			isa = PBXGroup;
-			children = (
-				09D3D3697593AC2C5691DAD6 /* fbcc2f09464bb34fdf464c6090834c6f8f4553 */,
-			);
-			path = a7;
-			sourceTree = "<group>";
-		};
-		A48FFDC5DF2FE96E4993D9C1 /* 0d */ = {
-			isa = PBXGroup;
-			children = (
-				68E9393BC91AF26A0D958B44 /* 18012632a412456a8d5b20c070b33864c0eb6d */,
-			);
-			path = 0d;
-			sourceTree = "<group>";
-		};
-		A525E746C4E34FEDA40BC6FE /* refs */ = {
-			isa = PBXGroup;
-			children = (
-				04FA789308DDCB75D950102F /* heads */,
-				8A849FDEEB9D944E5E520C0F /* remotes */,
-			);
-			path = refs;
-			sourceTree = "<group>";
-		};
-		A9CE23F1D7821C326B8E39B5 /* a9 */ = {
-			isa = PBXGroup;
-			children = (
-				A56CB32270A6637680634350 /* 5688cd7739810251fdba5829b692f721d0341c */,
-			);
-			path = a9;
-			sourceTree = "<group>";
-		};
-		B188F1264DA7CFC6B3A7DFCB /* logs */ = {
-			isa = PBXGroup;
-			children = (
-				22AD6B221DA33EAC7B5AF993 /* HEAD */,
-				A525E746C4E34FEDA40BC6FE /* refs */,
-			);
-			path = logs;
-			sourceTree = "<group>";
-		};
-		BC730A92E464ADAD12957532 /* 9c */ = {
-			isa = PBXGroup;
-			children = (
-				5825135A2429998D1B3612C2 /* 2c4c4dff2b17ea73fee302744af406dd058611 */,
-				5232E1968F4A385754AC1FAD /* d18204759b031c5f1e1a4cdbe62c70794f3222 */,
-			);
-			path = 9c;
-			sourceTree = "<group>";
-		};
 		C4D512C7A45D1759DD653E46 = {
 			isa = PBXGroup;
 			children = (
-				D51367332561F5715C976B0D /* .claude */,
-				83F44005E08DF8B532E71788 /* .git */,
 				85DEAFC5420AD64242332C97 /* App */,
 				44E79FAE6C8E944381C7B142 /* Components */,
 				0C417D87362623A6FF03DDD4 /* Extensions */,
@@ -757,22 +186,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		C52819BA6AFD967E60526C33 /* ff */ = {
-			isa = PBXGroup;
-			children = (
-				50FF4EF332BAA78C04453632 /* 62c3972f2cd7bf2228e60fc0c8abfb56465e6f */,
-			);
-			path = ff;
-			sourceTree = "<group>";
-		};
-		D29B07F89A2DB4E97211FDF7 /* remotes */ = {
-			isa = PBXGroup;
-			children = (
-				20E4F86C7252F5220E76AFD6 /* origin */,
-			);
-			path = remotes;
-			sourceTree = "<group>";
-		};
 		D3E5E92E95EA9DF414FBC273 /* Alarm */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,62 +193,6 @@
 				6A09AD46809E09B994487124 /* AlarmListView.swift */,
 			);
 			path = Alarm;
-			sourceTree = "<group>";
-		};
-		D51367332561F5715C976B0D /* .claude */ = {
-			isa = PBXGroup;
-			children = (
-				0918B2905D349EE60FEE02AC /* settings.local.json */,
-			);
-			path = .claude;
-			sourceTree = "<group>";
-		};
-		D92F2BB247359892E8B45B27 /* 5c */ = {
-			isa = PBXGroup;
-			children = (
-				E19488CC7717871A46BFFAD8 /* a0d913249a6d1abda96f1d24d2a0a0e43a0d99 */,
-			);
-			path = 5c;
-			sourceTree = "<group>";
-		};
-		DD80F5490DCB4EB24521E4BE /* 67 */ = {
-			isa = PBXGroup;
-			children = (
-				97A2D2C1ED2F0CAACDF2ED5D /* 93f6eeef90980c05b62349d1568931fafa602a */,
-			);
-			path = 67;
-			sourceTree = "<group>";
-		};
-		E2429C60EBAEB93E677EBEB1 /* 81 */ = {
-			isa = PBXGroup;
-			children = (
-				A98ED64104B69F092F36F9FB /* bd905a06196185ae1d48b42901bfd9c5274e73 */,
-			);
-			path = 81;
-			sourceTree = "<group>";
-		};
-		E4908AA6BD18EE0BA0B5D99C /* 20 */ = {
-			isa = PBXGroup;
-			children = (
-				8DA6E3A55032E9B56BC3AA81 /* e023b1e3630385a4f8de0d34b05c793753300e */,
-			);
-			path = 20;
-			sourceTree = "<group>";
-		};
-		E599F8E349484402083E0BA1 /* a6 */ = {
-			isa = PBXGroup;
-			children = (
-				FB69D896C905F63ABACFE5C5 /* 89531584846f6fd2f1caa552981e271c97526a */,
-			);
-			path = a6;
-			sourceTree = "<group>";
-		};
-		F1FBFD7641C697EFDDA66502 /* 91 */ = {
-			isa = PBXGroup;
-			children = (
-				D3A0F4FDE51C75747237860A /* 9434a6254f0e9651f402737811be6634a03e9c */,
-			);
-			path = 91;
 			sourceTree = "<group>";
 		};
 		F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */ = {
@@ -846,36 +203,18 @@
 			path = RPGAlarm;
 			sourceTree = "<group>";
 		};
-		F5F1BBD060F3E127C0000D1D /* ae */ = {
+		"TEMP_F60C2FB6-55A3-4AAE-9FDA-4694CB6C2F88" /* . */ = {
 			isa = PBXGroup;
 			children = (
-				1C1CB856F974987D925FF570 /* 1651f29ea5b7183be44d12913d81d69d6581c2 */,
-			);
-			path = ae;
-			sourceTree = "<group>";
-		};
-		FA656AB6327C39BA8760BC4F /* c7 */ = {
-			isa = PBXGroup;
-			children = (
-				779E92016732BE00D04167BC /* 0e6d1bbd1226e3a2f429f9467cbff9500fd713 */,
-			);
-			path = c7;
-			sourceTree = "<group>";
-		};
-		"TEMP_B1042178-F2D1-4DEE-8E2D-D7CEC7D0FF2D" /* . */ = {
-			isa = PBXGroup;
-			children = (
-				"TEMP_2A213D61-4279-4231-BC86-234C83B1B130" /* .gitignore */,
-				"TEMP_22B95FC4-E04F-4305-A2DB-11983B4F6E13" /* RPGAlarmApp.swift */,
+				"TEMP_101CB258-86DC-487C-9473-49B22D95A213" /* .gitignore */,
+				"TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */,
 				F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */,
 				4BD4C3D34D0B59C824B15C09 /* ViewModels */,
 				85DEAFC5420AD64242332C97 /* App */,
 				7E33C70C112C153AC0D508AB /* Resources */,
-				D51367332561F5715C976B0D /* .claude */,
 				117CF33FF645919B6F96E15E /* Models */,
 				0C417D87362623A6FF03DDD4 /* Extensions */,
 				44E79FAE6C8E944381C7B142 /* Components */,
-				83F44005E08DF8B532E71788 /* .git */,
 				6A8971387F74F32C716D5640 /* Views */,
 				216AEAF257328F7DDF5CE822 /* Services */,
 			);
@@ -948,23 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */,
-				409C538676DD1C0BB4337AAA /* applypatch-msg.sample in Resources */,
-				BA4EA7B60AEDBEED42F90504 /* commit-msg.sample in Resources */,
-				330DC38370A619555933E959 /* fsmonitor-watchman.sample in Resources */,
 				3CA7C038D8EEF7E481AE86A0 /* icon.svg in Resources */,
 				93F3D12134ACFB8CC3D1E1E4 /* icon_1024.png in Resources */,
-				A606BE63EB8D65DB997D943F /* post-update.sample in Resources */,
-				2056694AA18EEC5E84B99E60 /* pre-applypatch.sample in Resources */,
-				8D2CB59C1D96C737711B1659 /* pre-commit.sample in Resources */,
-				47262C65E6CFAE0659840B2B /* pre-merge-commit.sample in Resources */,
-				3237D52EDA2FA6B44195D876 /* pre-push.sample in Resources */,
-				7B6B4624F9D8EC641F9D9484 /* pre-rebase.sample in Resources */,
-				5DA621CC352244C57E72B4E3 /* pre-receive.sample in Resources */,
-				6BAC0F646D07CB33F508A879 /* prepare-commit-msg.sample in Resources */,
-				944AF5783339B371484ED7E8 /* push-to-checkout.sample in Resources */,
-				F4EC909848D3660852484535 /* sendemail-validate.sample in Resources */,
-				6D3BFD2BF2AF61767096DDBC /* settings.local.json in Resources */,
-				51981B302941FEECB3F31721 /* update.sample in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,7 +313,7 @@
 				9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */,
 				7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */,
 				3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */,
-				3331302F802616391787E1DB /* RPGAlarmApp.swift in Sources */,
+				8FD46CF3305721F4CFA77A16 /* RPGAlarmApp.swift in Sources */,
 				E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */,
 				7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */,
 				77A92A91D96559614F469A0A /* RootView.swift in Sources */,

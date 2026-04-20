@@ -25,6 +25,9 @@ targets:
           - "*.xcworkspace/**"
           - "build/**"
           - "*.md"
+          - ".git/**"
+          - ".claude/**"
+          - "**/.git/**"
     dependencies:
       - package: ConfettiSwiftUI
     info:
