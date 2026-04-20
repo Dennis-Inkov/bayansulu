@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		069B622A497B8FBE151AEECD /* Color+RPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C949488754819710C422 /* Color+RPG.swift */; };
 		0A86B9D94C3BE664F7790F90 /* ActiveGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */; };
+		14F19A1377ABDCC5D3BD8AD1 /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_AC6B2441-51B6-421F-B4FA-25960EADD9FE" /* RPGAlarmApp.swift */; };
 		214046ABA09B877BBD7E1EC7 /* GamePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D742430F29950E6336C529 /* GamePhase.swift */; };
 		29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7958DEB077C02C7A5DE8377 /* Assets.xcassets */; };
 		32C7C4E5E5BE9AD1FD73BF6F /* View+FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */; };
@@ -21,7 +22,6 @@
 		77A92A91D96559614F469A0A /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49520648B52D93E7C5C23541 /* RootView.swift */; };
 		7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2571EAE9723A94E816FA5D78 /* RPGCardView.swift */; };
 		82EF00FDDCA0B71669D75FD9 /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6FE1F145FCC4A1EEBB4996 /* WinView.swift */; };
-		8FD46CF3305721F4CFA77A16 /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */; };
 		93F3D12134ACFB8CC3D1E1E4 /* icon_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 2ADBF5DF7384612DDDBF07A9 /* icon_1024.png */; };
 		9A8692FDA56463F2AAB904F3 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316982DAAAE0CD76056953C /* AlarmModel.swift */; };
 		9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */; };
@@ -60,8 +60,8 @@
 		ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestion.swift; sourceTree = "<group>"; };
 		EFB8F6A26BCECE7C99F9451A /* icon.svg */ = {isa = PBXFileReference; path = icon.svg; sourceTree = "<group>"; };
 		F0187368ADEC90657DCE5ADA /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
-		"TEMP_101CB258-86DC-487C-9473-49B22D95A213" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
-		"TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
+		"TEMP_5915E7A3-56DD-4DC0-8186-62BDCED51FD5" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		"TEMP_AC6B2441-51B6-421F-B4FA-25960EADD9FE" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,11 +203,11 @@
 			path = RPGAlarm;
 			sourceTree = "<group>";
 		};
-		"TEMP_F60C2FB6-55A3-4AAE-9FDA-4694CB6C2F88" /* . */ = {
+		"TEMP_56309F97-F88D-42CF-A277-73625337B9EC" /* . */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_101CB258-86DC-487C-9473-49B22D95A213" /* .gitignore */,
-				"TEMP_E92B43ED-27CC-4A70-AFC2-4A4EADE585DF" /* RPGAlarmApp.swift */,
+				"TEMP_5915E7A3-56DD-4DC0-8186-62BDCED51FD5" /* .gitignore */,
+				"TEMP_AC6B2441-51B6-421F-B4FA-25960EADD9FE" /* RPGAlarmApp.swift */,
 				F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */,
 				4BD4C3D34D0B59C824B15C09 /* ViewModels */,
 				85DEAFC5420AD64242332C97 /* App */,
@@ -313,7 +313,7 @@
 				9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */,
 				7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */,
 				3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */,
-				8FD46CF3305721F4CFA77A16 /* RPGAlarmApp.swift in Sources */,
+				14F19A1377ABDCC5D3BD8AD1 /* RPGAlarmApp.swift in Sources */,
 				E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */,
 				7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */,
 				77A92A91D96559614F469A0A /* RootView.swift in Sources */,
@@ -338,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rpgalarm.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennis.rpgalarm.bayansulu;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -359,7 +359,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rpgalarm.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dennis.rpgalarm.bayansulu;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
