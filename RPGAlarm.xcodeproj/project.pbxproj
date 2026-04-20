@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		069B622A497B8FBE151AEECD /* Color+RPG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C38C949488754819710C422 /* Color+RPG.swift */; };
+		07D0C613FEB7EAE6836206C9 /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_93A711C1-78EC-443D-BB05-0DD0F8D40502" /* RPGAlarmApp.swift */; };
 		0A86B9D94C3BE664F7790F90 /* ActiveGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3D4E852206C5E4BACE90DF /* ActiveGameView.swift */; };
 		214046ABA09B877BBD7E1EC7 /* GamePhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D742430F29950E6336C529 /* GamePhase.swift */; };
-		288DDAE3015E67BA53506E9A /* RPGAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = "TEMP_900A62D8-FA47-4F8B-A7CC-675B6159EF54" /* RPGAlarmApp.swift */; };
 		29FE2BE2C4B4337B5CE1990F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7958DEB077C02C7A5DE8377 /* Assets.xcassets */; };
 		32C7C4E5E5BE9AD1FD73BF6F /* View+FadeIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC895FCE8C4907737A47EC38 /* View+FadeIn.swift */; };
 		3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4A018A74C47B0F4931968D /* NotificationService.swift */; };
@@ -60,8 +60,8 @@
 		ED38CA9F99BDF8C114FCEE3D /* MathQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathQuestion.swift; sourceTree = "<group>"; };
 		EFB8F6A26BCECE7C99F9451A /* icon.svg */ = {isa = PBXFileReference; path = icon.svg; sourceTree = "<group>"; };
 		F0187368ADEC90657DCE5ADA /* AudioService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioService.swift; sourceTree = "<group>"; };
-		"TEMP_7DFBD709-8F2D-4054-BE81-1CDD1DD1848B" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
-		"TEMP_900A62D8-FA47-4F8B-A7CC-675B6159EF54" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
+		"TEMP_319916B8-FB7A-4ECE-8DC0-533374E776E4" /* .gitignore */ = {isa = PBXFileReference; path = .gitignore; sourceTree = "<group>"; };
+		"TEMP_93A711C1-78EC-443D-BB05-0DD0F8D40502" /* RPGAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGAlarmApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,11 +203,11 @@
 			path = RPGAlarm;
 			sourceTree = "<group>";
 		};
-		"TEMP_2F0B577A-B9C3-4AED-AC01-BEE67A7DB1EF" /* . */ = {
+		"TEMP_12754B71-22F3-4559-8ABC-870242650FCE" /* . */ = {
 			isa = PBXGroup;
 			children = (
-				"TEMP_7DFBD709-8F2D-4054-BE81-1CDD1DD1848B" /* .gitignore */,
-				"TEMP_900A62D8-FA47-4F8B-A7CC-675B6159EF54" /* RPGAlarmApp.swift */,
+				"TEMP_319916B8-FB7A-4ECE-8DC0-533374E776E4" /* .gitignore */,
+				"TEMP_93A711C1-78EC-443D-BB05-0DD0F8D40502" /* RPGAlarmApp.swift */,
 				F5DEF3D93CB7F8ACE4928615 /* RPGAlarm */,
 				4BD4C3D34D0B59C824B15C09 /* ViewModels */,
 				85DEAFC5420AD64242332C97 /* App */,
@@ -255,7 +255,7 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					06D39FBA192B149F6F0CE547 = {
-						DevelopmentTeam = TRB4NNZXDQ;
+						DevelopmentTeam = "";
 					};
 				};
 			};
@@ -313,7 +313,7 @@
 				9AC66ECBDF30D88C6BE380D9 /* MathQuestion.swift in Sources */,
 				7142F0747F0FCF165A1E8F39 /* MemoryGameView.swift in Sources */,
 				3C52B4F0B287B53878DD8904 /* NotificationService.swift in Sources */,
-				288DDAE3015E67BA53506E9A /* RPGAlarmApp.swift in Sources */,
+				07D0C613FEB7EAE6836206C9 /* RPGAlarmApp.swift in Sources */,
 				E7369A608D5ED77942E99C55 /* RPGButtonStyle.swift in Sources */,
 				7ADD80E554D0A73F37B37068 /* RPGCardView.swift in Sources */,
 				77A92A91D96559614F469A0A /* RootView.swift in Sources */,
@@ -331,7 +331,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TRB4NNZXDQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RPGAlarm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -352,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = TRB4NNZXDQ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RPGAlarm/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
